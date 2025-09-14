@@ -30,11 +30,11 @@ jobs:
             ${{ runner.os }}-pnpm-store-
       - name: Install dependencies
         run: pnpm install
-      - run: pnpm run --filter docs build --outDir ../../dist --base=/${{ github.event.repository.name }}/
+      - run: pnpm -F sb build-storybook --base=/${{ github.event.repository.name }}/
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: dist
+          folder: packages/sb/storybook-static
           clean: true
           token: ${{ secrets.GITHUB_TOKEN }}
