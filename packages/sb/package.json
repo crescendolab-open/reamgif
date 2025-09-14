@@ -1,0 +1,28 @@
+{
+  "name": "@repo/sb",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Storybook configuration for the monorepo",
+  "type": "module",
+  "scripts": {
+    "build-storybook": "storybook build",
+    "postinstall": "cp ../../README.md ./stories/1_Getting_Start/README.mdx",
+    "storybook": "storybook dev -p 6006"
+  },
+  "dependencies": {
+    "@crescendolab-open/reamgif": "workspace:*",
+    "@emotion/css": "catalog:",
+    "@mui/types": "catalog:",
+    "@types/react": "catalog:",
+    "react-aria-components": "catalog:"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "catalog:",
+    "@storybook/addon-a11y": "catalog:",
+    "@storybook/addon-docs": "catalog:",
+    "@storybook/react-vite": "catalog:",
+    "@vitest/browser": "catalog:",
+    "@vitest/coverage-v8": "catalog:",
+    "storybook": "catalog:"
+  }
+}

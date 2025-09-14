@@ -1,0 +1,13 @@
+{
+  "configurations": [
+    {
+      "console": "integratedTerminal",
+      "name": "Docs: Storybook Dev",
+      "request": "launch",
+      "runtimeArgs": ["-F", "sb", "storybook"],
+      "runtimeExecutable": "pnpm",
+      "type": "node"
+    }
+  ],
+  "version": "0.2.0"
+}

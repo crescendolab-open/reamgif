@@ -1,0 +1,24 @@
+{
+  "name": "@crescendolab-open/reamgif",
+  "version": "0.0.0",
+  "description": "A template for developing libraries",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsdown",
+    "prepublishOnly": "pnpm run build"
+  },
+  "dependencies": {
+    "@emotion/css": "catalog:",
+    "es-toolkit": "catalog:",
+    "merge-refs": "catalog:"
+  },
+  "devDependencies": {
+    "@mui/types": "catalog:",
+    "@types/react": "catalog:",
+    "react": "catalog:",
+    "tsdown": "catalog:"
+  },
+  "LICENSE": "Apache-2.0"
+}

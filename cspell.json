@@ -33,6 +33,7 @@
     "tsdoc",
     "tsdown",
     "unbundle",
+    "unplugin",
     "unrs",
     "vite",
     "vitejs",

@@ -3,9 +3,9 @@
   "references": [
     { "path": "./tsconfig.node.json" },
     { "path": "./packages/utils/tsconfig.app.json" },
-    { "path": "./packages/template-vite-react-19/tsconfig.node.json" },
-    { "path": "./packages/template-vite-react-19/tsconfig.app.json" },
-    { "path": "./packages/template-ts-lib/tsconfig.lib.json" },
-    { "path": "./packages/template-ts-lib/tsconfig.node.json" }
+    { "path": "./packages/sb/tsconfig.app.json" },
+    { "path": "./packages/sb/tsconfig.stories.json" },
+    { "path": "./packages/reamgif/tsconfig.lib.json" },
+    { "path": "./packages/reamgif/tsconfig.node.json" }
   ]
 }

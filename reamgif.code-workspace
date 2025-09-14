@@ -13,8 +13,8 @@
     { "path": "packages/dts" },
     { "path": "packages/tsconfig" },
     { "path": "packages/utils" },
-    { "path": "packages/template-vite-react-19" },
-    { "path": "packages/template-ts-lib" },
+    { "path": "packages/sb" },
+    { "path": "packages/reamgif" },
   ],
   "settings": {
     "[mdx]": {

@@ -143,3 +143,11 @@ dist
 !.env.*
 .env.local
 .env.*.local
+
+# Copy from the monorepo root
+/packages/reamgif/README.md
+/packages/reamgif/LICENSE
+/packages/sb/stories/1_Getting_Start/README.mdx
+
+*storybook.log
+storybook-static
