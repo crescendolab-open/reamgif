@@ -356,7 +356,7 @@ importers:
 
   packages/sb:
     dependencies:
-      '@crescendolab-open/reamgif':
+      '@crescendolab/reamgif':
         specifier: workspace:*
         version: link:../reamgif
       '@emotion/css':

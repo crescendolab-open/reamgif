@@ -1,6 +1,6 @@
 {
   "name": "@repo/sb",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "description": "Storybook configuration for the monorepo",
   "type": "module",
@@ -10,7 +10,7 @@
     "storybook": "storybook dev -p 6006"
   },
   "dependencies": {
-    "@crescendolab-open/reamgif": "workspace:*",
+    "@crescendolab/reamgif": "workspace:*",
     "@emotion/css": "catalog:",
     "@mui/types": "catalog:",
     "@types/react": "catalog:",

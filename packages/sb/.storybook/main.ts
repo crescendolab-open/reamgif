@@ -33,8 +33,8 @@ const config: StorybookConfig = {
         ...config.resolve,
         alias: {
           ...config.resolve?.alias,
-          "@crescendolab-open/reamgif": reamgifPath,
-          "@crescendolab-open/reamgif/dist": reamgifPath,
+          "@crescendolab/reamgif": reamgifPath,
+          "@crescendolab/reamgif/dist": reamgifPath,
         },
       },
     };

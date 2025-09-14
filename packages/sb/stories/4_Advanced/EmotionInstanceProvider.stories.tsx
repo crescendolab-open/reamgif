@@ -1,9 +1,6 @@
 import type { Emotion } from "@emotion/css/create-instance";
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import {
-  EmotionInstanceProvider,
-  ReamgifBox,
-} from "@crescendolab-open/reamgif";
+import { EmotionInstanceProvider, ReamgifBox } from "@crescendolab/reamgif";
 import createInstance from "@emotion/css/create-instance";
 import { useMemo, useState } from "react";
 

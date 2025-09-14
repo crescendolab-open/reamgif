@@ -2,7 +2,7 @@
 import type {
   SatisfiesRootElementType,
   WithReamgifProps,
-} from "@crescendolab-open/reamgif";
+} from "@crescendolab/reamgif";
 import type { CSSInterpolation } from "@emotion/css/create-instance";
 import type { DistributiveOmit, Overwrite } from "@mui/types";
 import {
@@ -10,10 +10,10 @@ import {
   ReamgifBox,
   useEmotionInstance,
   useReamgifProps,
-} from "@crescendolab-open/reamgif";
+} from "@crescendolab/reamgif";
 import { forwardRef, useMemo } from "react";
 
-export type { useReamgifProps } from "@crescendolab-open/reamgif";
+export type { useReamgifProps } from "@crescendolab/reamgif";
 
 const defaultRootElement: MyButton.DefaultRootElementType = "button";
 

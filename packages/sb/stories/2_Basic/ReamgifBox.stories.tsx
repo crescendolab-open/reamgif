@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import { ReamgifBox } from "@crescendolab-open/reamgif";
+import { ReamgifBox } from "@crescendolab/reamgif";
 
 type Args = ReamgifBox.Props;
 

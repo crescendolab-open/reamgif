@@ -1,6 +1,6 @@
 {
-  "name": "@crescendolab-open/reamgif",
-  "version": "0.0.0",
+  "name": "@crescendolab/reamgif",
+  "version": "0.0.1",
   "description": "A template for developing libraries",
   "type": "module",
   "main": "dist/index.js",
@@ -19,6 +19,9 @@
     "@types/react": "catalog:",
     "react": "catalog:",
     "tsdown": "catalog:"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "LICENSE": "Apache-2.0"
 }

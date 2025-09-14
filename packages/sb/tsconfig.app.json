@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "paths": {
-      "@crescendolab-open/reamgif": ["../reamgif/src"],
-      "@crescendolab-open/reamgif/dist/*": ["../reamgif/src/*"]
+      "@crescendolab/reamgif": ["../reamgif/src"],
+      "@crescendolab/reamgif/dist/*": ["../reamgif/src/*"]
     },
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo"
   },

@@ -7,7 +7,7 @@
 
 > Figma‑compatible styling primitives for React components — powered by `@emotion/css`, strongly typed, composable, and friendly with any UI kit (e.g. `react-aria-components`).
 
-`@crescendolab-open/reamgif` is an experimental foundations layer to let you bring Figma design tokens & per‑element visual props (starting with `cornerRadius`) directly into React without building a giant theme object first. Each prop becomes immediate runtime styles with deterministic precedence while remaining type‑safe and easily overridable.
+`@crescendolab/reamgif` is an experimental foundations layer to let you bring Figma design tokens & per‑element visual props (starting with `cornerRadius`) directly into React without building a giant theme object first. Each prop becomes immediate runtime styles with deterministic precedence while remaining type‑safe and easily overridable.
 
 ## ✨ Goals
 
@@ -30,7 +30,7 @@ Flexible primitive container. Defaults to a `<div>` but can polymorph via the `c
 - User `css` (highest visual precedence)
 
 ```tsx
-import { ReamgifBox } from "@crescendolab-open/reamgif";
+import { ReamgifBox } from "@crescendolab/reamgif";
 
 export function Card() {
   return (
@@ -64,7 +64,7 @@ Responsibilities:
 - Merges refs (user + internal) and observes element size using `ResizeObserver` (throttled)
 
 ```tsx
-import { useReamgifProps } from "@crescendolab-open/reamgif";
+import { useReamgifProps } from "@crescendolab/reamgif";
 
 export const Panel = ({
   ref,
@@ -99,7 +99,7 @@ This prevents oval artifacts when components resize. When the element ref update
 Because we only output standard `className` + `data-*` + forwarded props, you can wrap headless/lib components seamlessly:
 
 ```tsx
-import { useReamgifProps } from "@crescendolab-open/reamgif";
+import { useReamgifProps } from "@crescendolab/reamgif";
 import { Button } from "react-aria-components";
 
 function RacButton(
@@ -117,7 +117,7 @@ See Storybook stories under `stories/5_Integration/ReactAriaComponents` for a fu
 Use the same pattern as `ReamgifBox`:
 
 ```tsx
-import { useReamgifProps } from "@crescendolab-open/reamgif";
+import { useReamgifProps } from "@crescendolab/reamgif";
 import React from "react";
 
 export interface BadgeProps {
@@ -171,11 +171,11 @@ pnpm run storybook # (if configured, else check repo scripts)
 ## 🚀 Install
 
 ```bash
-pnpm add @crescendolab-open/reamgif
+pnpm add @crescendolab/reamgif
 # or
-npm install @crescendolab-open/reamgif
+npm install @crescendolab/reamgif
 # or
-yarn add @crescendolab-open/reamgif
+yarn add @crescendolab/reamgif
 ```
 
 Peer assumptions: React 18+, modern bundler, CSS capable environment.

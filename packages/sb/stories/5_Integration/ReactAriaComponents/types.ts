@@ -2,7 +2,7 @@ import type {
   BaseRef,
   BaseRootElementProps,
   SatisfiesRootElementType,
-} from "@crescendolab-open/reamgif";
+} from "@crescendolab/reamgif";
 import type { Overwrite } from "@mui/types";
 import type { StyleRenderProps } from "react-aria-components";
 

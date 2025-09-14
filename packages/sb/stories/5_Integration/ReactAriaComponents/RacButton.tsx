@@ -1,5 +1,5 @@
 /* eslint-disable react/no-forward-ref -- Compatibility for React <=18 */
-import type { WithReamgifProps } from "@crescendolab-open/reamgif";
+import type { WithReamgifProps } from "@crescendolab/reamgif";
 import type { CSSInterpolation } from "@emotion/css/create-instance";
 import type { DistributiveOmit, Overwrite } from "@mui/types";
 import type { SatisfiesRacRootElementType } from "./types";
@@ -7,7 +7,7 @@ import {
   mergeCssInterpolation,
   useEmotionInstance,
   useReamgifProps,
-} from "@crescendolab-open/reamgif";
+} from "@crescendolab/reamgif";
 import { forwardRef, useMemo } from "react";
 import { Button } from "react-aria-components";
 
