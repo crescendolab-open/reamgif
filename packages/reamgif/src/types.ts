@@ -127,7 +127,7 @@ export type BaseRootElementProps = Pick<
   React.ComponentProps<keyof React.JSX.IntrinsicElements>,
   "className"
 > &
-  React.RefAttributes<BaseRef>;
+  Pick<React.RefAttributes<BaseRef>, "ref">;
 
 /**
  * Determines if the given element type's props satisfy the BaseRootElementProps

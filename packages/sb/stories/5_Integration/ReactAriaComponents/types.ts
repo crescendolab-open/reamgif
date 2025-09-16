@@ -24,8 +24,5 @@ export type SatisfiesRacRootElementType<
 
 export type BaseRacRootElementProps = Overwrite<
   BaseRootElementProps,
-  {
-    // react-aria-components compatibility
-    className: StyleRenderProps<object>["className"];
-  }
+  Pick<StyleRenderProps<object>, "className">
 >;
